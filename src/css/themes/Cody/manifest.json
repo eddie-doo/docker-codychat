@@ -1,0 +1,12 @@
+{
+	"name": "Cody",
+	"author": "Boomcoding",
+	"background_header": "#292929",
+	"text_header": "#fff",
+	"background_chat": "#222",
+	"background_image": "css/themes/Cody/images/back_preview.jpg",
+	"background_log": "rgba(255, 255, 255, 0.2);",
+	"text_color": "#fff",
+	"theme_color": "#03add8",
+	"default_color": "#333"
+}

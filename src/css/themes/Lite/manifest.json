@@ -1,0 +1,13 @@
+{
+	"name": "Lite",
+	"author": "Boomcoding",
+	"background_header": "#222",
+	"text_header": "#fff",
+	"background_chat": "#fff",
+	"background_image": "",
+	"background_log": "rgb(0,0,0,0.028)",
+	"text_color": "#000",
+	"theme_color": "#000",
+	"default_color": "#03add8",
+	"duotone": "rgba(0,0,0,0.03)"
+}

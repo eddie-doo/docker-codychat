@@ -1,0 +1,14 @@
+{
+	"name": "Dark",
+	"author": "Boomcoding",
+	"background_header": "#111",
+	"text_header": "#fff",
+	"background_chat": "#151515",
+	"background_image": "",
+	"background_log": "rgb(255,255,255,0.04)",
+	"text_color": "#fff",
+	"theme_color": "#03add8",
+	"default_color": "#666"
+}
+
+

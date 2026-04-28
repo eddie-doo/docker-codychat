@@ -1,0 +1,83 @@
+<?php
+$elang['invalid_command'] = "Ta naredba ne postoji";
+$elang['email_exist'] = "Račun s tom e-poštom već postoji";
+$elang['error'] = "Došlo je do pogreške";
+$elang['updated'] = "Ažuriranje je završeno";
+$elang['cannot_user'] = "Ne možeš izvršiti ovu radnju nad navedenim korisnikom";
+$elang['confirmed_command'] = "Naredba je uspješno izvršena";
+$elang['bad_login'] = "Pogrešno korisničko ime ili lozinka";
+$elang['invalid_username'] = "Odabrano korisničko ime nije valjano";
+$elang['username_exist'] = "Odabrano korisničko ime već postoji";
+$elang['invalid_email'] = "Odabrani e-mail nije valjan";
+$elang['sel_age'] = "Molimo odaberite svoju dob";
+$elang['access_requirement'] = "Ne ispunjavate uvjete za pristup ovoj sobi";
+$elang['wrong_pass'] = "Lozinka je netočna";
+$elang['room_full'] = "Ova soba je puna, molimo pokušajte drugu";
+$elang['friend_sent'] = "Vaš zahtjev za prijateljstvom je poslan";
+$elang['new_friend'] = "Čestitamo, upravo ste stekli novog prijatelja";
+$elang['empty_field'] = "Molimo ispunite sva polja";
+$elang['room_name'] = "Neispravno ime sobe";
+$elang['room_description'] = "Opis sobe je prekratak";
+$elang['invalid_pass'] = "Lozinka mora biti između 6 i 24 znaka";
+$elang['room_exist'] = "Odabrano ime sobe već postoji";
+$elang['max_room'] = "Dosegnuli ste svoj maksimum broja soba";
+$elang['wrong_file'] = "Odabrana vrsta datoteke nije dozvoljena";
+$elang['no_file'] = "Morate odabrati datoteku";
+$elang['file_big'] = "Vaša datoteka je prevelika";
+$elang['too_short'] = "Kriteriji za pretraživanje su prekratki";
+$elang['clean_complete'] = "Čišćenje je završeno";
+$elang['cant_modify_user'] = "Nemate dozvolu za uređivanje ovog korisnika";
+$elang['saved'] = "Spremljeno";
+$elang['action_complete'] = "Radnja dovršena";
+$elang['email_sent'] = "E-mail je poslan, molimo provjerite svoj e-mail";
+$elang['room_block'] = "Trenutno ne možete ući u odabranu sobu";
+$elang['bad_actual'] = "Stara lozinka nije ispravna";
+$elang['not_match'] = "Nove lozinke se ne podudaraju";
+$elang['recovery_sent'] = "Privremena lozinka poslana je na vaš e-mail";
+$elang['no_user'] = "Nijedan korisnik nije pronađen s tim podacima";
+$elang['something_wrong'] = "Otkriveno je nešto neobično, pričekajte da administrator pregleda vaš račun";
+$elang['max_reg'] = "Dosegnuli ste maksimalan broj registracija dozvoljen za sada, molimo pokušajte kasnije";
+$elang['select_something'] = "Molimo odaberite nešto";
+$elang['reported'] = "Hvala na prijavi";
+$elang['already_erase'] = "Objava više ne postoji";
+$elang['already_reported'] = "Ova objava je već prijavljena";
+$elang['ignored'] = "Korisnik je dodan na vašu listu ignoriranih";
+$elang['cannot_contact'] = "Trenutno ne možete kontaktirati ovog korisnika";
+$elang['new_message'] = "Nova poruka";
+$elang['data_exist'] = "Podaci koje ste unijeli već postoje";
+$elang['register_close'] = "Trenutno ne primamo nove registracije, molimo pokušajte kasnije";
+$elang['site_connect'] = "Molimo spojite se na stranicu za ulazak u chat";
+$elang['no_bridge'] = "Na navedenoj lokaciji nije otkriven most";
+$elang['invalid_code'] = "Pogrešan kod";
+$elang['already_action'] = "Ova radnja je već postavljena";
+$elang['missing_recaptcha'] = "Molimo dovršite reCAPTCHA";
+$elang['no_result'] = "Nema pronađenih rezultata";
+$elang['restricted_content'] = "Nekaj iz poslanih podataka nije dozvoljeno, molimo uredite ga";
+$elang['report_limit'] = "Dosegnuli ste svoj limit prijava";
+$elang['vpn_usage'] = "Molimo isključite VPN/proxy da biste ušli na stranicu";
+$elang['coppa'] = "Trenutno ne možete ući na stranicu";
+$elang['age_requirement'] = "Ne ispunjavate dobne zahtjeve stranice";
+$elang['no_gold'] = "Nemate dovoljno zlata da dovršite ovu transakciju";
+$elang['invalid_data'] = "Nevažeći podaci";
+$elang['call_fail'] = "Član trenutno nije dostupan.";
+$elang['low_balance'] = "Nedovoljno stanje.";
+$elang['invalid_amount'] = "Nevažeći iznos";
+$elang['file_blocked'] = "Datoteka nije u skladu s našim smjernicama";
+$elang['call_block'] = "Žao nam je, ne možete ući u ovaj poziv";
+$elang['act_limit'] = "Molimo pričekajte da ponovno iskoristite tu funkciju";
+$elang['max_attempt'] = 'Previše neuspješnih pokušaja';
+$elang['cannot_action'] = 'Ne možete izvršiti tu radnju';
+/* system message */ 
+
+$slang['system__join'] = "%user% se pridružio sobi";
+$slang['system__clear'] = "Ovu sobu je očistio %user%";
+$slang['system__name'] = "%custom% je sada poznat kao %user%";
+$slang['system__kick'] = "%user% je izbačen";
+$slang['system__ban'] = "%user% je zabranjen";
+$slang['system__mute'] = "%user% je utišan";
+$slang['system__block'] = "%user% je blokiran u sobi";
+
+/* top notification */
+
+$plang['user_join'] = "Povezan je";
+?>
