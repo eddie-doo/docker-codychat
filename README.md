@@ -14,16 +14,18 @@ A containerized Codychat 10.1 with security hardening baked into the image. Desi
 - Ioncube is pre-loaded and the image runs installer.php on build
 
 ## Project Structure
- 
+
 ```
+.
 ├── docker/
-│   ├── php/
-│   │   ├── Dockerfile              # Apache + PHP 8.4 image definition
-│   │   ├── php.ini                 # Custom PHP configuration
-│   │   └── modsecurity/
-│   │       └── modsecurity.conf    # ModSecurity WAF rules and config
-├── src/                            # Base Codychat 10.1 source
-├── docker-compose.yml              # Service orchestration
-├── .env.example                    # Checked-in template for required env vars
+│   ├── ioncube/ # Compiled Ioncube loaders
+│   ├── php.ini # PHP configuration
+│   └── modsecurity/
+│       └── modsecurity.conf # ModSecurity WAF configuration
+├── src/
+├── Dockerfile
+├── docker-compose.yml
+├── .env.example                ← commit this
 └── README.md
 ```
+
