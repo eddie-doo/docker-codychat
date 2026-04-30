@@ -1,12 +1,8 @@
-# docker-compose.yml
-
 services:
-  # Chat middleware
   app:
     build:
       context: .
       dockerfile: Dockerfile
-
     container_name: chat
     restart: unless-stopped
     ports:
@@ -17,21 +13,20 @@ services:
       DB_USER: ${DB_USER}
       DB_PASSWORD: ${DB_PASSWORD}
     volumes:
-      - ./src:/var/www/html # bind mount for dev so I can change files without rebuilding
+      - ./src:/var/www/html
     networks:
       - chat-net
     depends_on:
       mariadb:
         condition: service_healthy
 
-  # Database
   mariadb:
     image: mariadb:11
     container_name: chat_db
     restart: unless-stopped
     environment:
       MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
-      MARIADB_DATABASE: ${DB_NAME} # Created on first startup
+      MARIADB_DATABASE: ${DB_NAME}
       MARIADB_USER: ${DB_USER}
       MARIADB_PASSWORD: ${DB_PASSWORD}
     volumes:
@@ -39,14 +34,15 @@ services:
     networks:
       - chat-net
     healthcheck:
-      # Compose won't mark this service healthy until this command succeeds.
-      # This is what depends_on: condition: service_healthy waits for.
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
       interval: 10s
       timeout: 5s
       retries: 5
-    volumes:
-      mariadb_data:
-    networks:
-        chat-net:
-          driver: bridge
+
+volumes:
+  mariadb_data:
+
+networks:
+  chat-net:
+    driver: bridge
+
