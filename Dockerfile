@@ -1,6 +1,6 @@
 FROM php:8.4-apache
 
-# -- System Dependencies -- #i
+# -- System Dependencies -- #
 # All apt installs in one layer: cleans cache once, avoids stale index issues
 # across split RUN blocks.
 RUN apt-get update && apt-get install -y \
