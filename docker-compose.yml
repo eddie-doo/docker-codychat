@@ -7,6 +7,8 @@ services:
     restart: unless-stopped
     ports:
       - "80:80"
+    entrypoint: >
+      sh -c "chown -R www-data:www-data /var/www/html && apache2-foreground"
     environment:
       DB_HOST: mariadb
       DB_NAME: ${DB_NAME}
