@@ -1,6 +1,11 @@
 # docker-codychat
 A containerized Codychat 10.1 with security hardening baked into the image. Designed for easily deploying/testing custom builds, and reducing hosting operation costs.
 
+# To do
+- Facilitate an easy way to import an existing database
+- Add an easy way to disable security hardening/SSL enforcement for local development
+- Database healthchecks
+
 # Features & Stack Decisions
 
 *Containerization*
